@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    background-image: url('https://template-branco-copy29-copy138.blog.office.builderall.com/upload_clientes/66550/userfiles/images/background-petshop-blog4jpg.jpg');
+    /*background-color: rgb(173, 151, 173);*/
+}
+
+table, th, td {
+    border: 1px none black;
+    width: 24%;
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+    width: 280px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+input {
+    border: 2px groove lightgrey;
+    border-radius: 5px;
+
+}
+
+.csubmit {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    width: 90px;
+    height: 30px;
+}
+
+#navbar {
+    font-size: 18px;
+    background-color: #f1f0d6;
+    background-size: 300px;
+    word-spacing: 2px;
+}
+
+#section a {
+    text-decoration: underline;
+}
+
+#navbar a {
+    background-color: rgb(53, 53, 53);
+    border-radius: 5px;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+/*a:link e a:visited para setar configurações, respectivamente, antes de visitar o link, e depois de visitar!*/
+#navbar a:hover {
+    color: rgb(235, 199, 132);
+}
+
+#navbar a:active {
+    color: #f1f0d6;
+}
+
+#section {
+    background-color: #f1f0d6;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.item {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#tabela2 {
+    padding-top: 15px;
+}
+
+.classfloat {
+    float: left;
+}
